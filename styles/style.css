@@ -308,7 +308,6 @@
   font-weight: 400;
 }
 
-/* Добавление пустых кружочков в меню футера */
 .footer__menu-list-item:not(:first-child)::before {
   content: "○";
   position: absolute;
